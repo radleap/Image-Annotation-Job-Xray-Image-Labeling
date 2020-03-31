@@ -9,6 +9,14 @@
 
 ## General Project Details
 
+Design a data annotation job using Figure-Eight platform that uses non-expert to identify and label cases of pneumonia. 
+This data could later be used to build a product that helps doctors quickly identify cases of pneumonia in children. This data would be used to build a classification system that (not done here): 
+    - Can help flag serious cases
+    - Quickly identify healthy cases
+    - And, generally, act as a diagnostic aid for doctors
+
+To be clear, this goal of this project is data labeling, not machine learning. One responsibility of an AI product manager may include obtaining a labeled dataset using third-party software such as Figure-Eight or AWS. 
+
 ## Proposal and Final Project Paper
 
 Problem Statement: The aim is label x-ray data as Pneumonia or healthy, using FigureEight platform (https://www.figure-eight.com/). This will allows for instructions, test questions, and overall design.
