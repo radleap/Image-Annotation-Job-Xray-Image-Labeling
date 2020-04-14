@@ -20,23 +20,26 @@ To be clear, this goal of this project is data labeling, not machine learning. O
 
 ## Proposal and Final Project Paper
 
-Problem Statement: The aim is label x-ray data as Pneumonia or healthy, using FigureEight platform at https://www.figure-eight.com/. This will allows for instructions, test questions, and overall design.
-Evaluation: Accuracy is our test metric for the 16 images that are labeled. We are also looking for accurate results among the distribution of answers for yes/no.
+**Problem Statement**: The aim is label x-ray data as Pneumonia or healthy, using FigureEight platform at https://www.figure-eight.com/. This will allows for instructions, test questions, and overall design.
+
+**Evaluation**: Accuracy is our test metric for the 16 images that are labeled. We are also looking for accurate results among the distribution of answers for yes/no.
 
 ## Requirements
 See the requirements.txt file for necessary packages. 
 
 ## Data
-Original Data: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
+Original Data: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia.
+
 As, applicable, see directories "static" for supporting data/files, and "templates" for HTML templates.
 
 ## Outputs
 - A pdf **Proposal**, which is a writeup that details design considerations and strategies for quality assurance.
-- A jupyter notebook for exploratory data analysis, reviewing images, and any data science related preparation.
-- Instructions_Preview.html designed on Figure-Eight. The file includes instructions, examples, and some sample test questions.
+- A **jupyter notebook** for exploratory data analysis, reviewing images, and any data science related preparation.
+- **Instructions_Preview.html** designed on Figure-Eight. The file includes instructions, examples, and some sample test questions.
 - A pdf **Figure Eight Launch Results**
 - **Results.CSV** - the resulting labeled dataset 
 
+## Job Launch Results
 ![Results][image2]
 
 ## Discussion
@@ -48,8 +51,8 @@ As such, it is incredibly important to treat this test as a soft-launch to elimi
 This is to learn AI Product Management, through the Udacity AI Product Manager Nanodegree. 
 
 ## Other Related Projects
-This repository also contains two additional projects from the same program.
-- **AutoML_Modeling_Report**: this is a report documenting model in Google's AutoML, and discussed topics such as imbalances, dirty data, and data size. Discussion of the effects on key metrics are reported.
+This repository also contains two additional projects 
+- **AutoML_Modeling_Report**: this is a report documenting various models made on Google's AutoML. Discussed topics such as imbalance data, dirty data, and data size. Discussion of the effects on key metrics are reported.
 - **AI Product Business Case - Physical Therapy**: this project is a AI product business case and design, considering users, data source, design practices, and iteration over time.
 
 ## License
